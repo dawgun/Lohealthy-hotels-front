@@ -7,7 +7,10 @@
     "start": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "jest src --passWithNoTests",
+    "test:dev": "jest src --watchAll",
+    "test:coverage": "jest src --coverage --passWithNoTests"
   },
   "dependencies": {
     "react": "^18.2.0",
