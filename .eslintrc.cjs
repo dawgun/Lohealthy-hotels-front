@@ -19,4 +19,5 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/no-unused-vars": "error",
   },
+  settings: { react: { version: "detect" } },
 };
